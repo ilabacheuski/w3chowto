@@ -21,6 +21,8 @@
     "url": "https://github.com/ilabacheuski/w3chowto/issues"
   },
   "homepage": "https://github.com/ilabacheuski/w3chowto#readme",
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  },
   "dependencies": {}
 }
