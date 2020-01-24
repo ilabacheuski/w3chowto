@@ -4,6 +4,7 @@
   "description": "Implement w3c howto classes",
   "main": "src/index.ts",
   "scripts": {
+    "build": "tsc",
     "test": "test"
   },
   "repository": {
