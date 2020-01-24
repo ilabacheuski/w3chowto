@@ -1,0 +1,26 @@
+{
+  "name": "w3chowto",
+  "version": "0.0.1",
+  "description": "Implement w3c howto classes",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilabacheuski/w3chowto.git"
+  },
+  "keywords": [
+    "w3c",
+    "w3cshools.org",
+    "howto"
+  ],
+  "author": "Ilya Labacheuski <ilya.labacheuski@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ilabacheuski/w3chowto/issues"
+  },
+  "homepage": "https://github.com/ilabacheuski/w3chowto#readme",
+  "devDependencies": {},
+  "dependencies": {}
+}
