@@ -4,7 +4,8 @@
   "description": "Implement w3c howto classes",
   "main": "src/index.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "rollup -c rollup.config.js",
+    "dev": "rollup -c rollup.config.js -w",
     "test": "test"
   },
   "repository": {
@@ -23,6 +24,15 @@
   },
   "homepage": "https://github.com/ilabacheuski/w3chowto#readme",
   "devDependencies": {
+    "@rollup/plugin-alias": "^3.0.0",
+    "@rollup/plugin-strip": "^1.3.1",
+    "@rollup/plugin-typescript": "^2.1.0",
+    "@rollup/plugin-url": "^4.0.1",
+    "rollup": "^1.29.1",
+    "rollup-plugin-cleaner": "^1.0.0",
+    "rollup-plugin-postcss": "^2.0.4",
+    "rollup-plugin-terser": "^5.2.0",
+    "tslib": "^1.10.0",
     "typescript": "^3.7.5"
   },
   "dependencies": {}
