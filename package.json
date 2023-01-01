@@ -29,7 +29,7 @@
     "@rollup/plugin-url": "^4.0.1",
     "rollup": "^1.29.1",
     "rollup-plugin-cleaner": "^1.0.0",
-    "rollup-plugin-postcss": "^2.0.4",
+    "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-terser": "^5.2.0",
     "tslib": "^1.10.0",
     "typescript": "^3.7.5"
